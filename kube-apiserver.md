@@ -133,7 +133,7 @@ EOF
 --service-node-port-range： 指定 NodePort 的端口范围；
 --runtime-config=api/all=true： 启用所有版本的 APIs，如 autoscaling/v2alpha1；
 --enable-bootstrap-token-auth：启用 kubelet bootstrap 的 token 认证；
---apiserver-count=3：指定集群运行模式，多台 kube-apiserver 会通过 leader 选举产生一个工作节点，其它节点处于阻塞状态；
+--apiserver-count=3：指定集群运行模式
 User=k8s：使用 k8s 账户运行；
 ```
 ----
