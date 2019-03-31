@@ -114,9 +114,10 @@ EOF
 ```
 -----
 #### 添加 k8s 账户
+```
 useradd -m k8s
 sh -c 'echo 123456 | passwd k8s --stdin' # 为 k8s 账户设置密码
-
+```
 ----
 #### 创建工作目录
 ```
